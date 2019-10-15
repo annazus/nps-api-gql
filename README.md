@@ -10,7 +10,9 @@ You can query this data @ the endpoint https://nps-api-gql.herokuapp.com/
 
 But before getting started get obtain an API key from https://www.nps.gov/subjects/developer/get-started.htm and send it in the authorization header.
 
+This implementation uses a per request DataLoader to batch calls to help prevent NPS API request limits 
 
+Contact me if you have questions.
 
 
 
