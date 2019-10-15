@@ -19,7 +19,8 @@ const server = new ApolloServer({
 
     return { api_key, parksLoader, campgroundsLoader };
   },
-  playground: true
+  playground: true,
+  introspection: true
 });
 
 server
