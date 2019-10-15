@@ -4,8 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.6.5",
+    "apollo-server": "^2.9.6",
+    "dataloader": "^1.4.0",
+    "graphql": "^14.5.8"
+  }
 }
